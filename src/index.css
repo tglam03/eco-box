@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-dark font-sans antialiased overflow-x-hidden;
+    background-color: #F6F2EA;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+  }
+}
+
+/* Custom premium styles */
+.glassmorphism {
+  background: rgba(246, 242, 234, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(35, 69, 42, 0.08);
+}
+
+.glassmorphism-dark {
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(215, 196, 163, 0.15);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6F2EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D7C4A3;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #23452A;
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

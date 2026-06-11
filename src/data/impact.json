@@ -1,0 +1,35 @@
+{
+  "totalStats": {
+    "coffeeGroundsReused": "520 kg",
+    "plasticReplaced": "10,240 units",
+    "co2Reduced": "3,250 kg",
+    "naturalMaterials": "100%"
+  },
+  "carbonSavedByMaterial": [
+    { "material": "Bã cà phê", "percentage": 35, "kgSaved": 1137.5 },
+    { "material": "Xơ mướp", "percentage": 25, "kgSaved": 812.5 },
+    { "material": "Bã mía", "percentage": 20, "kgSaved": 650 },
+    { "material": "Vỏ trấu", "percentage": 15, "kgSaved": 487.5 },
+    { "material": "Bột tre & Khác", "percentage": 5, "kgSaved": 162.5 }
+  ],
+  "monthlyReduction": [
+    { "month": "Thg 1", "co2": 180, "waste": 30 },
+    { "month": "Thg 2", "co2": 210, "waste": 35 },
+    { "month": "Thg 3", "co2": 240, "waste": 42 },
+    { "month": "Thg 4", "co2": 310, "waste": 50 },
+    { "month": "Thg 5", "co2": 350, "waste": 62 },
+    { "month": "Thg 6", "co2": 420, "waste": 75 }
+  ],
+  "wasteDiverted": {
+    "total": "1,450 kg",
+    "breakdown": [
+      { "item": "Phế phẩm nông nghiệp", "weight": "950 kg" },
+      { "item": "Bã cà phê đô thị", "weight": "500 kg" }
+    ]
+  },
+  "circularEconomy": {
+    "recoveryRate": "98%",
+    "biodegradationTime": "60 - 90 ngày",
+    "toxicChemicals": "0%"
+  }
+}

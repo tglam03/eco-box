@@ -1,0 +1,369 @@
+[
+  {
+    "id": "ECO-BOX-2025-0001",
+    "slug": "book-box",
+    "name": "Book Box",
+    "category": "Premium Packaging",
+    "description": "Một chiếc hộp sang trọng được chế tác từ bã cà phê và sợi xơ dừa, thiết kế mở gập như một cuốn sách cổ điển, mang lại trải nghiệm mở hộp đầy tính nghệ thuật.",
+    "dimensions": "24 x 18 x 5 cm",
+    "materials": {
+      "coffeeGrounds": "55%",
+      "coirFiber": "25%",
+      "bioBinder": "20%"
+    },
+    "features": [
+      "Kháng khuẩn tự nhiên từ tinh chất cà phê",
+      "Khóa nam châm sinh học tự phân hủy",
+      "Chống thấm nước nhẹ, bề mặt vân nổi độc bản"
+    ],
+    "co2Saved": "1.45 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Khay Đựng Đồ Trang Trí",
+        "description": "Biến thành hộp đựng phụ kiện, kính mắt hoặc đồng hồ sang trọng trên bàn làm việc."
+      },
+      {
+        "title": "Khung Ảnh Để Bàn",
+        "description": "Tận dụng nắp hộp mở gập làm khung trưng bày tranh vẽ hoặc ảnh kỷ niệm."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0001",
+      "productionDate": "2026-05-10",
+      "batchNumber": "B-COFFEE-09",
+      "materialSource": "Lâm Đồng, Việt Nam",
+      "co2Savings": "1.45 kg CO₂",
+      "timeline": [
+        { "stage": "Thu gom bã cà phê", "location": "Chuỗi cà phê đối tác tại Đà Lạt", "date": "2026-04-12" },
+        { "stage": "Sấy và Nghiền mịn", "location": "Nhà máy xử lý Eco-box Bảo Lộc", "date": "2026-04-15" },
+        { "stage": "Ép nhiệt sinh học", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-02" },
+        { "stage": "Kiểm định & Gắn chíp QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-10" }
+      ],
+      "brandMessage": "Hộp quà này đại diện cho sự tái sinh. Cảm ơn bạn đã đồng hành cùng chúng tôi trên hành trình giảm thiểu rác thải nông nghiệp."
+    },
+    "images": [
+      "z7796474703571_4340f097d37c777a7046e633c975f9fa.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0002",
+    "slug": "flower-box",
+    "name": "Flower Box",
+    "category": "Gift Boxes",
+    "description": "Thiết kế lục giác tinh xảo chuyên dụng cho hoa tươi và quà tặng cao cấp. Được làm từ xơ mướp tự nhiên liên kết bằng keo sinh học dừa.",
+    "dimensions": "20 x 20 x 15 cm",
+    "materials": {
+      "loofahFiber": "60%",
+      "coconutGelBinder": "25%",
+      "husks": "15%"
+    },
+    "features": [
+      "Khả năng giữ ẩm vượt trội cho hoa tươi",
+      "Cấu trúc xốp giảm chấn tự nhiên",
+      "Hương thơm xơ mướp dịu nhẹ"
+    ],
+    "co2Saved": "1.85 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Chậu Hoa Sinh Học",
+        "description": "Trồng trực tiếp hoa hoặc cây cảnh vào hộp. Khi cây lớn, có thể chôn cả hộp xuống đất, hộp tự phân hủy và làm phân bón."
+      },
+      {
+        "title": "Giỏ Treo Đồ Phòng Tắm",
+        "description": "Nhờ đặc tính kháng ẩm của xơ mướp, hộp rất thích hợp để chứa xà bông và phụ kiện nhà tắm."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0002",
+      "productionDate": "2026-05-12",
+      "batchNumber": "B-LOOFAH-03",
+      "materialSource": "Bến Tre, Việt Nam",
+      "co2Savings": "1.85 kg CO₂",
+      "timeline": [
+        { "stage": "Thu hoạch xơ mướp", "location": "Hợp tác xã nông nghiệp Bình Đại", "date": "2026-04-10" },
+        { "stage": "Tẩy sạch sinh học & Ép phẳng", "location": "Nhà máy Bến Tre", "date": "2026-04-20" },
+        { "stage": "Tạo hình lục giác", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-05" },
+        { "stage": "Hoàn thiện & Định danh QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-12" }
+      ],
+      "brandMessage": "Từng thớ xơ mướp trong chiếc hộp này đã giúp nâng cao thu nhập cho nông dân Bến Tre. Hãy tiếp tục vòng đời của nó nhé!"
+    },
+    "images": [
+      "z7796474719982_d62c3071ba66813f09194ff4bb4adfc3.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0003",
+    "slug": "drawer-box",
+    "name": "Drawer Box",
+    "category": "Decorative Boxes",
+    "description": "Hộp ngăn kéo dạng kéo trượt thông minh, sản xuất từ bã mía và trấu. Cực kỳ bền chắc, lý tưởng để đựng các sản phẩm trang sức và mỹ phẩm.",
+    "dimensions": "15 x 15 x 8 cm",
+    "materials": {
+      "sugarcaneBagasse": "50%",
+      "riceHusk": "30%",
+      "bioBinder": "20%"
+    },
+    "features": [
+      "Thiết kế kéo mở mượt mà không dùng kim loại",
+      "Khả năng chịu lực cao, chống móp méo",
+      "Bề mặt mịn sang trọng"
+    ],
+    "co2Saved": "1.20 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Tủ Đồ Mini Để Bàn",
+        "description": "Chồng nhiều hộp Drawer Box lên nhau để tạo thành một hệ tủ mini đựng đồ văn phòng phẩm hoặc son môi."
+      },
+      {
+        "title": "Hộp Đựng Trang Sức",
+        "description": "Lót thêm một lớp vải nhung hoặc nỉ vụn bên trong để lưu trữ trang sức cá nhân."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0003",
+      "productionDate": "2026-05-15",
+      "batchNumber": "B-SUGAR-14",
+      "materialSource": "Thanh Hóa, Việt Nam",
+      "co2Savings": "1.20 kg CO₂",
+      "timeline": [
+        { "stage": "Thu gom bã mía & vỏ trấu", "location": "Nhà máy đường Lam Sơn & các hộ dân", "date": "2026-04-18" },
+        { "stage": "Phối trộn tỷ lệ sinh học", "location": "Nhà máy chế biến Thanh Hóa", "date": "2026-04-26" },
+        { "stage": "Đúc khuôn áp lực cao", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-08" },
+        { "stage": "Đóng dấu số hóa QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-15" }
+      ],
+      "brandMessage": "Tận dụng nguồn bã mía dồi dào, chiếc hộp ngăn kéo này là giải pháp thay thế hoàn hảo cho các khay nhựa acrylic độc hại."
+    },
+    "images": [
+      "z7926450760571_cb66cd39e04df051e932553cbe2bcafd.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0004",
+    "slug": "tube-box",
+    "name": "Tube Box",
+    "category": "Premium Packaging",
+    "description": "Hộp ống tròn độc đáo làm từ bột giấy tre ép và bã cà phê. Phù hợp cho các chai tinh dầu, nến thơm, hoặc trà đặc sản.",
+    "dimensions": "8 (Đường kính) x 18 (Cao) cm",
+    "materials": {
+      "bambooPulp": "60%",
+      "coffeeGrounds": "25%",
+      "bioBinder": "15%"
+    },
+    "features": [
+      "Thiết kế dạng ống chịu lực cuộn tròn cực tốt",
+      "Nắp đậy khít giữ hương thơm sản phẩm",
+      "Chất liệu phân hủy hoàn toàn trong 60 ngày"
+    ],
+    "co2Saved": "0.95 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Hộp Đựng Bút & Cọ Trang Điểm",
+        "description": "Đặt trên bàn làm việc hoặc bàn trang điểm để làm ống cắm bút, thước kẻ hoặc cọ trang điểm cực kỳ vintage."
+      },
+      {
+        "title": "Hộp Đựng Trà/Hạt Khô",
+        "description": "Dùng để bảo quản gói trà nhỏ, hạt ngũ cốc khô tiện lợi trong nhà bếp."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0004",
+      "productionDate": "2026-05-18",
+      "batchNumber": "B-TUBE-22",
+      "materialSource": "Hòa Bình, Việt Nam",
+      "co2Savings": "0.95 kg CO₂",
+      "timeline": [
+        { "stage": "Thu hoạch tre già bền vững", "location": "Vùng nguyên liệu tre Hòa Bình", "date": "2026-04-20" },
+        { "stage": "Xử lý bột giấy không hóa chất", "location": "Xưởng bột giấy Hòa Bình", "date": "2026-04-28" },
+        { "stage": "Cuốn ép lõi cà phê", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-12" },
+        { "stage": "Định danh mã QR độc bản", "location": "Trung tâm ESG Eco-box", "date": "2026-05-18" }
+      ],
+      "brandMessage": "Hộp ống tròn Eco-box kết hợp giữa độ dẻo dai của tre và mùi thơm nồng nàn của cà phê, mang thiên nhiên gần hơn với bạn."
+    },
+    "images": [
+      "z7926450765224_7b67c0591cda3db3f3874814a5c0fd76.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0005",
+    "slug": "heart-box",
+    "name": "Heart Box",
+    "category": "Gift Boxes",
+    "description": "Chiếc hộp hình trái tim lãng mạn dành riêng cho các sự kiện đặc biệt và ngày lễ tình nhân. Làm từ xơ mướp ép mịn kết hợp sợi tơ sen.",
+    "dimensions": "18 x 18 x 7 cm",
+    "materials": {
+      "loofahFiber": "50%",
+      "lotusFiber": "30%",
+      "naturalResin": "20%"
+    },
+    "features": [
+      "Kiểu dáng trái tim mềm mại, sang trọng",
+      "Trọng lượng siêu nhẹ nhưng cứng cáp",
+      "Phân hủy hoàn toàn trong môi trường tự nhiên"
+    ],
+    "co2Saved": "1.30 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Hộp Đựng Kỷ Niệm Chương",
+        "description": "Lưu giữ những bức thư tay, cuộn len hay những vật phẩm lưu niệm đắt giá của tình yêu."
+      },
+      {
+        "title": "Khay Gieo Hạt Mầm Trái Tim",
+        "description": "Đổ đất ẩm vào hộp và gieo hạt mầm. Hộp hình trái tim sẽ là bệ phóng xanh mát cho khu vườn của bạn."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0005",
+      "productionDate": "2026-05-20",
+      "batchNumber": "B-HEART-07",
+      "materialSource": "Đồng Tháp, Việt Nam",
+      "co2Savings": "1.30 kg CO₂",
+      "timeline": [
+        { "stage": "Thu hoạch ngó sen & mướp", "location": "Cánh đồng sen Tháp Mười", "date": "2026-04-22" },
+        { "stage": "Tách sợi nghệ thuật", "location": "Cơ sở dệt sợi Đồng Tháp", "date": "2026-05-02" },
+        { "stage": "Ép nhiệt khuôn trái tim", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-14" },
+        { "stage": "Kích hoạt hộ chiếu số QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-20" }
+      ],
+      "brandMessage": "Được dệt nên từ những sợi sen thanh khiết của xứ Đồng Tháp Mười, chiếc hộp này gửi gắm trọn vẹn tình yêu thiên nhiên đến người nhận."
+    },
+    "images": [
+      "z7926450767969_d7b55d9b8dc2f98bbf18dd48d6cb14e5.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0006",
+    "slug": "candle-box",
+    "name": "Candle Box",
+    "category": "Decorative Boxes",
+    "description": "Thiết kế bảo vệ chuyên biệt cho nến thơm thủ công nghệ thuật. Vật liệu từ bã vỏ trấu ép dày chịu nhiệt tốt.",
+    "dimensions": "10 x 10 x 12 cm",
+    "materials": {
+      "riceHusk": "65%",
+      "bioBinder": "20%",
+      "charcoal": "15%"
+    },
+    "features": [
+      "Khả năng cách nhiệt và bảo vệ mùi hương tối đa",
+      "Vân trấu mộc mạc mang cảm giác ấm áp",
+      "Có thể chống ẩm mốc tự nhiên"
+    ],
+    "co2Saved": "1.10 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Đế Lót Nến Chống Cháy",
+        "description": "Tận dụng phần đáy hộp làm đế đặt nến thơm khi đốt để bảo vệ mặt bàn gỗ khỏi sức nóng."
+      },
+      {
+        "title": "Chậu Trồng Sen Đá Mini",
+        "description": "Bỏ một ít đất sỏi vào hộp và trồng một cây sen đá xinh xắn bên bệ cửa sổ."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0006",
+      "productionDate": "2026-05-22",
+      "batchNumber": "B-CANDLE-11",
+      "materialSource": "An Giang, Việt Nam",
+      "co2Savings": "1.10 kg CO₂",
+      "timeline": [
+        { "stage": "Thu gom vỏ trấu từ nhà máy xay xát", "location": "Vùng lúa An Giang", "date": "2026-04-25" },
+        { "stage": "Nghiền bột trấu mịn", "location": "Nhà máy nghiền trấu Châu Đốc", "date": "2026-05-04" },
+        { "stage": "Ép định hình hộp nến", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-16" },
+        { "stage": "Gắn nhãn truy xuất nguồn gốc", "location": "Trung tâm ESG Eco-box", "date": "2026-05-22" }
+      ],
+      "brandMessage": "Vỏ trấu thường bị đốt bỏ gây ô nhiễm không khí, nay đã được giữ lại để che chở cho ngọn lửa ấm áp của cây nến thơm của bạn."
+    },
+    "images": [
+      "z7926450771985_cfcee9bd244057350ad16dfc09dcfe46.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0007",
+    "slug": "food-box",
+    "name": "Food Box",
+    "category": "Food Packaging",
+    "description": "Hộp đựng thực phẩm khô và bánh ngọt organic. Thành phần 100% bã mía tinh khiết đạt chứng nhận an toàn thực phẩm quốc tế FDA.",
+    "dimensions": "18 x 12 x 6 cm",
+    "materials": {
+      "sugarcaneBagasse": "85%",
+      "organicWax": "15%"
+    },
+    "features": [
+      "An toàn tuyệt đối cho sức khỏe người tiêu dùng",
+      "Khả năng chống dầu mỡ và chống nước nhẹ tốt",
+      "Sử dụng được trong lò vi sóng dưới 2 phút"
+    ],
+    "co2Saved": "0.85 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Khay Đựng Hạt Giống Gieo Mầm",
+        "description": "Khay rất hoàn hảo để gieo hạt giống cải mầm, xà lách trước khi đem trồng ra chậu lớn."
+      },
+      {
+        "title": "Hộp Đựng Bánh Kẹo Tiếp Khách",
+        "description": "Vệ sinh nhẹ nhàng bằng khăn ẩm để đựng các loại kẹo bọc giấy, hạt khô bày trên bàn trà."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0007",
+      "productionDate": "2026-05-25",
+      "batchNumber": "B-FOOD-38",
+      "materialSource": "Sơn La, Việt Nam",
+      "co2Savings": "0.85 kg CO₂",
+      "timeline": [
+        { "stage": "Thu gom bã mía hữu cơ", "location": "Vùng trồng mía đường Sơn La", "date": "2026-05-01" },
+        { "stage": "Khử trùng nhiệt độ cao & Tạo bột", "location": "Xưởng Sơn La", "date": "2026-05-10" },
+        { "stage": "Ép định hình khuôn thực phẩm", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-20" },
+        { "stage": "Kiểm định FDA & dán mã QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-25" }
+      ],
+      "brandMessage": "Được xử lý không hóa chất tẩy trắng, Food Box bảo vệ món ăn của bạn cũng như bảo vệ hành tinh xanh của chúng ta."
+    },
+    "images": [
+      "z7926450776548_e41b19b85023541c83fce68c63b41123.jpg"
+    ]
+  },
+  {
+    "id": "ECO-BOX-2025-0008",
+    "slug": "advent-box",
+    "name": "Advent Box",
+    "category": "Premium Packaging",
+    "description": "Hộp quà nhiều ngăn độc đáo cho mùa lễ hội cuối năm. Được sản xuất thủ công từ bã mía phối bã cà phê thơm ngát.",
+    "dimensions": "30 x 30 x 10 cm",
+    "materials": {
+      "coffeeGrounds": "40%",
+      "sugarcaneBagasse": "40%",
+      "bioBinder": "20%"
+    },
+    "features": [
+      "Hệ thống 24 ô nhỏ rút độc đáo đựng quà bất ngờ",
+      "Thiết kế bền bỉ có thể sử dụng nhiều năm",
+      "Hương thơm cà phê nhẹ nhàng thư giãn"
+    ],
+    "co2Saved": "2.90 kg CO₂e",
+    "reuseIdeas": [
+      {
+        "title": "Hộp Lưu Trữ Đồ Đạc Chia Ngăn",
+        "description": "Làm tủ phân loại kim chỉ, khuy áo, ốc vít hoặc các đồ dùng thủ công DIY siêu gọn gàng."
+      },
+      {
+        "title": "Hộp Đựng Trà 24 Vị",
+        "description": "Dùng để phân chia và đựng 24 túi trà túi lọc hương vị khác nhau cho cả gia đình."
+      }
+    ],
+    "passportData": {
+      "id": "ECO-2025-0008",
+      "productionDate": "2026-05-28",
+      "batchNumber": "B-ADVENT-01",
+      "materialSource": "Nhiều vùng nguyên liệu, Việt Nam",
+      "co2Savings": "2.90 kg CO₂",
+      "timeline": [
+        { "stage": "Thu gom nguyên liệu hỗn hợp", "location": "Nông trại Tây Nguyên & Sơn La", "date": "2026-05-02" },
+        { "stage": "Nghiền trộn đồng nhất", "location": "Nhà máy chế tác Eco-box", "date": "2026-05-12" },
+        { "stage": "Lắp ráp thủ công 24 ngăn", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-24" },
+        { "stage": "Kích hoạt hộ chiếu số đặc biệt", "location": "Trung tâm ESG Eco-box", "date": "2026-05-28" }
+      ],
+      "brandMessage": "Hộp quà Giáng sinh bền vững lớn nhất của chúng tôi, tạo tác từ phế phẩm với mong muốn trao gửi 24 niềm vui xanh cho bạn."
+    },
+    "images": [
+      "z7796474703571_4340f097d37c777a7046e633c975f9fa.jpg"
+    ]
+  }
+]
