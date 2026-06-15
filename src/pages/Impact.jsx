@@ -28,7 +28,7 @@ export default function Impact() {
         
         {/* Header Block */}
         <div className="max-w-3xl mx-auto text-center mb-20 space-y-4">
-          <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4.5 py-1.5 rounded-full inline-block">
+          <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4 py-1.5 rounded-full inline-block">
             Báo Cáo Bền Vững ESG
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-primary font-display">
@@ -185,11 +185,12 @@ export default function Impact() {
             Chúng tôi cung cấp API và dữ liệu xuất kho dạng số, giúp doanh nghiệp dễ dàng đồng bộ hóa lượng CO₂ tiết kiệm được vào báo cáo ESG thường niên.
           </p>
           <div className="pt-2">
-            <a href="mailto:esg-report@ecobox.vn">
-              <button className="bg-primary text-background hover:bg-primary-dark transition-colors duration-300 px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider flex items-center space-x-2 mx-auto shadow-md">
-                <span>Nhận Tài Liệu Hướng Dẫn</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
+            <a 
+              href="mailto:esg-report@ecobox.vn"
+              className="inline-flex items-center justify-center bg-primary text-background hover:bg-primary-dark transition-colors duration-300 px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider flex items-center space-x-2 mx-auto shadow-md text-center"
+            >
+              <span>Nhận Tài Liệu Hướng Dẫn</span>
+              <ArrowRight className="w-4 h-4" />
             </a>
           </div>
         </div>

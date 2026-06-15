@@ -55,7 +55,7 @@ export default function Timeline() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4.5 py-1.5 rounded-full inline-block mb-4"
+          className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4 py-1.5 rounded-full inline-block mb-4"
         >
           Hành Trình Tuần Hoàn
         </motion.span>
@@ -92,7 +92,7 @@ export default function Timeline() {
               <div key={idx} className={`flex flex-col md:flex-row items-start ${isEven ? 'md:flex-row-reverse' : ''}`}>
                 
                 {/* Dot/Icon Column */}
-                <div className="absolute left-6 md:relative md:left-auto md:mx-auto flex items-center justify-center z-10">
+                <div className="absolute left-6 -translate-x-1/2 md:relative md:translate-x-0 md:left-auto md:mx-auto flex items-center justify-center z-10">
                   <motion.div 
                     initial={{ scale: 0.6, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}

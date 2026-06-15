@@ -52,7 +52,7 @@ export default function PassportFeature() {
           
           {/* Left Text Column */}
           <div className="lg:col-span-6 space-y-8">
-            <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4.5 py-1.5 rounded-full inline-block">
+            <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4 py-1.5 rounded-full inline-block">
               Số Hóa Chuỗi Cung Ứng
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary leading-tight">
@@ -85,10 +85,11 @@ export default function PassportFeature() {
             </div>
 
             <div className="pt-4">
-              <Link to="/passport/ECO-2025-0001">
-                <button className="bg-primary text-background hover:bg-primary-dark transition-colors duration-300 px-7 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-premium">
-                  Trải nghiệm demo hộ chiếu số
-                </button>
+              <Link 
+                to="/passport/ECO-2025-0001"
+                className="inline-flex items-center justify-center bg-primary text-background hover:bg-primary-dark transition-colors duration-300 px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider shadow-premium"
+              >
+                Trải nghiệm demo hộ chiếu số
               </Link>
             </div>
           </div>

@@ -92,17 +92,21 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="flex flex-wrap justify-center gap-4 pt-4"
           >
-            <a href="mailto:partner@ecobox.vn" id="btn-partner-home">
-              <button className="flex items-center space-x-2 bg-secondary text-dark hover:bg-white hover:scale-105 active:scale-95 transition-all duration-300 px-8 py-4 rounded-full font-bold uppercase tracking-wider text-xs shadow-lg">
-                <MessageSquare className="w-4 h-4 shrink-0" />
-                <span>Liên Hệ Hợp Tác</span>
-              </button>
+            <a 
+              href="mailto:partner@ecobox.vn" 
+              id="btn-partner-home"
+              className="inline-flex items-center space-x-2 bg-secondary text-dark hover:bg-white hover:scale-105 active:scale-95 transition-all duration-300 px-8 py-4 rounded-full font-bold uppercase tracking-wider text-xs shadow-lg text-center"
+            >
+              <MessageSquare className="w-4 h-4 shrink-0" />
+              <span>Liên Hệ Hợp Tác</span>
             </a>
-            <Link to="/collection" id="btn-collection-home">
-              <button className="flex items-center space-x-2 border border-background/20 hover:border-secondary hover:bg-white/5 transition-all duration-300 px-8 py-4 rounded-full font-bold uppercase tracking-wider text-xs">
-                <span>Khám Phá Bộ Sưu Tập</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
+            <Link 
+              to="/collection" 
+              id="btn-collection-home"
+              className="inline-flex items-center space-x-2 border border-background/20 hover:border-secondary hover:bg-white/5 transition-all duration-300 px-8 py-4 rounded-full font-bold uppercase tracking-wider text-xs text-center"
+            >
+              <span>Khám Phá Bộ Sưu Tập</span>
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </motion.div>
         </div>

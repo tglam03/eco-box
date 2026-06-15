@@ -72,7 +72,7 @@ export default function PassportDetail() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, type: 'spring', stiffness: 100 }}
-              className="relative w-full max-w-sm mx-auto bg-gradient-to-br from-primary via-primary-dark to-[#162d1b] rounded-3xl text-white shadow-2xl p-6.5 border border-white/10 overflow-hidden flex flex-col justify-between aspect-[5/8]"
+              className="relative w-full max-w-sm mx-auto bg-gradient-to-br from-primary via-primary-dark to-[#162d1b] rounded-3xl text-white shadow-2xl p-6 border border-white/10 overflow-hidden flex flex-col justify-between min-h-[580px]"
             >
               {/* Premium texture overlay */}
               <div className="absolute inset-0 opacity-15 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white via-transparent to-transparent z-0" />
@@ -151,7 +151,7 @@ export default function PassportDetail() {
           <div className="lg:col-span-7 space-y-8">
             
             {/* Navigation Tabs */}
-            <div className="flex border-b border-border/80">
+            <div className="flex border-b border-border/80 overflow-x-auto no-scrollbar whitespace-nowrap scroll-smooth">
               {[
                 { id: 'specs', label: 'Thông Số & Nguồn Gốc' },
                 { id: 'journey', label: 'Hành Trình Chế Tác' },
@@ -160,7 +160,7 @@ export default function PassportDetail() {
                 <button
                   key={tab.id}
                   onClick={() => setActiveSection(tab.id)}
-                  className={`pb-4 px-6 text-sm font-semibold tracking-wide border-b-2 transition-all duration-200 ${
+                  className={`pb-4 px-6 text-sm font-semibold tracking-wide border-b-2 transition-all duration-200 shrink-0 ${
                     activeSection === tab.id
                       ? 'border-primary text-primary'
                       : 'border-transparent text-dark/45 hover:text-primary'
@@ -181,7 +181,7 @@ export default function PassportDetail() {
                   animate={{ opacity: 1, y: 0 }}
                   className="space-y-6"
                 >
-                  <div className="bg-white p-6.5 rounded-3xl border border-border/80 space-y-4">
+                  <div className="bg-white p-6 rounded-3xl border border-border/80 space-y-4">
                     <h3 className="text-lg font-bold text-primary font-display">Lời Cảm Ơn Từ Eco-Box</h3>
                     <p className="text-sm text-dark/75 leading-relaxed italic font-light">
                       "{pData.brandMessage}"
@@ -189,7 +189,7 @@ export default function PassportDetail() {
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div className="bg-white p-6.5 rounded-3xl border border-border/80 space-y-4">
+                    <div className="bg-white p-6 rounded-3xl border border-border/80 space-y-4">
                       <h3 className="text-base font-bold text-primary font-display flex items-center space-x-2">
                         <Leaf className="w-4 h-4 text-emerald-600" />
                         <span>Nguyên Liệu Phối Trộn</span>
@@ -204,7 +204,7 @@ export default function PassportDetail() {
                       </div>
                     </div>
 
-                    <div className="bg-white p-6.5 rounded-3xl border border-border/80 space-y-4">
+                    <div className="bg-white p-6 rounded-3xl border border-border/80 space-y-4">
                       <h3 className="text-base font-bold text-primary font-display flex items-center space-x-2">
                         <Compass className="w-4 h-4 text-secondary-dark" />
                         <span>Nguồn Nguyên Liệu</span>
@@ -264,7 +264,7 @@ export default function PassportDetail() {
                   animate={{ opacity: 1, y: 0 }}
                   className="space-y-6"
                 >
-                  <div className="bg-white p-6.5 rounded-3xl border border-border/80 space-y-4">
+                  <div className="bg-white p-6 rounded-3xl border border-border/80 space-y-4">
                     <div className="flex items-center space-x-2 text-primary">
                       <Sparkles className="w-5 h-5 text-secondary-dark" />
                       <h3 className="text-lg font-bold font-display">Mô Phỏng Trực Quan AR</h3>
@@ -364,16 +364,18 @@ export default function PassportDetail() {
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-4 pt-2">
-                <a href="mailto:ar-guide@ecobox.vn">
-                  <button className="bg-primary text-background hover:bg-primary-dark transition-all duration-300 px-6.5 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider shadow-md">
-                    Nhận hạt giống miễn phí
-                  </button>
+              <div className="flex flex-col sm:flex-row gap-4 pt-2">
+                <a 
+                  href="mailto:ar-guide@ecobox.vn"
+                  className="inline-flex items-center justify-center bg-primary text-background hover:bg-primary-dark transition-all duration-300 px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider shadow-md h-11 w-full sm:w-auto text-center"
+                >
+                  Nhận hạt giống miễn phí
                 </a>
-                <Link to="/collection">
-                  <button className="border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300 px-6.5 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider text-primary">
-                    Khám phá bộ sản phẩm khác
-                  </button>
+                <Link 
+                  to="/collection"
+                  className="inline-flex items-center justify-center border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300 px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider text-primary h-11 w-full sm:w-auto text-center"
+                >
+                  Khám phá bộ sản phẩm khác
                 </Link>
               </div>
             </div>

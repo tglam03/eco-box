@@ -16,7 +16,7 @@ export default function CollectionPreview() {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16">
           <div className="space-y-4 max-w-xl">
-            <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4.5 py-1.5 rounded-full inline-block">
+            <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4 py-1.5 rounded-full inline-block">
               Khám Phá Thiết Kế
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary">
@@ -57,7 +57,7 @@ export default function CollectionPreview() {
                   />
                   
                   {/* Category Tag */}
-                  <span className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-primary text-[10px] uppercase font-bold tracking-wider px-3.5 py-1.5 rounded-full border border-border/40 shadow-sm">
+                  <span className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-primary text-[10px] uppercase font-bold tracking-wider px-3 py-1.5 rounded-full border border-border/40 shadow-sm">
                     {product.category}
                   </span>
 

@@ -102,10 +102,11 @@ export default function Partners() {
               Đội ngũ thiết kế của chúng tôi sẵn sàng đồng hành cùng thương hiệu của bạn từ khâu lên ý tưởng nguyên liệu, đúc khuôn logo riêng đến tích hợp hệ thống QR Passport.
             </p>
           </div>
-          <a href="mailto:partner@ecobox.vn" className="shrink-0">
-            <button className="bg-secondary text-dark hover:bg-white transition-colors duration-300 px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg">
-              Liên Hệ Hợp Tác Ngay
-            </button>
+          <a 
+            href="mailto:partner@ecobox.vn" 
+            className="shrink-0 inline-flex items-center justify-center bg-secondary text-dark hover:bg-white transition-colors duration-300 px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider shadow-lg text-center"
+          >
+            Liên Hệ Hợp Tác Ngay
           </a>
         </motion.div>
 

@@ -42,7 +42,7 @@ export default function ImpactStats() {
         
         {/* Title */}
         <div className="text-center max-w-xl mx-auto mb-20">
-          <span className="text-xs uppercase tracking-widest text-secondary font-bold bg-secondary/10 px-4.5 py-1.5 rounded-full inline-block mb-4">
+          <span className="text-xs uppercase tracking-widest text-secondary font-bold bg-secondary/10 px-4 py-1.5 rounded-full inline-block mb-4">
             Hiệu Quả Thực Tế
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white">

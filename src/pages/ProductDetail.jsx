@@ -88,7 +88,7 @@ export default function ProductDetail() {
             
             {/* Title & Description */}
             <div className="space-y-4">
-              <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4.5 py-1.5 rounded-full inline-block">
+              <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4 py-1.5 rounded-full inline-block">
                 Sản Phẩm Đã Được Xác Minh ESG
               </span>
               <h1 className="text-4xl md:text-5xl font-extrabold text-primary leading-tight font-display">
@@ -100,23 +100,23 @@ export default function ProductDetail() {
             </div>
 
             {/* Spec Highlights Grid */}
-            <div className="grid grid-cols-3 gap-4 border-y border-border/60 py-6">
+            <div className="grid grid-cols-3 gap-2 sm:gap-4 border-y border-border/60 py-6">
               <div className="text-center space-y-1">
-                <span className="text-[10px] uppercase tracking-wider text-dark/45 font-semibold block">Kích thước</span>
-                <span className="text-sm font-bold text-primary">{product.dimensions}</span>
+                <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-dark/45 font-semibold block">Kích thước</span>
+                <span className="text-xs sm:text-sm font-bold text-primary">{product.dimensions}</span>
               </div>
-              <div className="text-center space-y-1 border-x border-border/60">
-                <span className="text-[10px] uppercase tracking-wider text-dark/45 font-semibold block">Dấu chân Carbon</span>
-                <span className="text-sm font-bold text-emerald-600">-{product.co2Saved}</span>
+              <div className="text-center space-y-1 border-x border-border/60 px-1">
+                <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-dark/45 font-semibold block">Carbon giảm</span>
+                <span className="text-xs sm:text-sm font-bold text-emerald-600">-{product.co2Saved}</span>
               </div>
               <div className="text-center space-y-1">
-                <span className="text-[10px] uppercase tracking-wider text-dark/45 font-semibold block">Phân hủy hoàn toàn</span>
-                <span className="text-sm font-bold text-primary">60-90 Ngày</span>
+                <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-dark/45 font-semibold block">Phân hủy</span>
+                <span className="text-xs sm:text-sm font-bold text-primary">60-90 Ngày</span>
               </div>
             </div>
 
             {/* Materials Breakdown */}
-            <div className="space-y-4 bg-white p-6.5 rounded-3xl border border-border/80 shadow-sm">
+            <div className="space-y-4 bg-white p-6 rounded-3xl border border-border/80 shadow-sm">
               <h3 className="font-display text-lg font-bold text-primary flex items-center space-x-2">
                 <Layers className="w-5 h-5" />
                 <span>Thành phần nguyên liệu</span>
@@ -166,7 +166,7 @@ export default function ProductDetail() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {product.reuseIdeas.map((idea, index) => (
-                  <div key={index} className="bg-white border border-border/80 rounded-2xl p-5.5 space-y-2">
+                  <div key={index} className="bg-white border border-border/80 rounded-2xl p-6 space-y-2">
                     <h4 className="font-display font-bold text-sm text-primary">🌿 {idea.title}</h4>
                     <p className="text-xs text-dark/65 font-light leading-relaxed">{idea.description}</p>
                   </div>
@@ -175,18 +175,19 @@ export default function ProductDetail() {
             </div>
 
             {/* Digital Passport Preview CTA */}
-            <div className="bg-primary text-background rounded-3xl p-6.5 flex justify-between items-center space-x-4">
+            <div className="bg-primary text-background rounded-3xl p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div className="space-y-1">
                 <h4 className="font-display font-bold text-base text-white">Xem Thử Hộ Chiếu Số</h4>
                 <p className="text-xs text-background/70 font-light">
                   Mỗi hộp thật sẽ có một mã định danh số duy nhất đi kèm.
                 </p>
               </div>
-              <Link to={`/passport/${product.id}`} className="shrink-0">
-                <button className="bg-secondary text-dark hover:bg-white transition-colors duration-300 px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider flex items-center space-x-2 shadow-md">
-                  <QrCode className="w-4 h-4" />
-                  <span>Mở Hộ Chiếu</span>
-                </button>
+              <Link 
+                to={`/passport/${product.id}`} 
+                className="shrink-0 bg-secondary text-dark hover:bg-white transition-colors duration-300 px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider flex items-center space-x-2 shadow-md w-full sm:w-auto justify-center text-center"
+              >
+                <QrCode className="w-4 h-4" />
+                <span>Mở Hộ Chiếu</span>
               </Link>
             </div>
 

@@ -76,11 +76,12 @@ export default function Header() {
 
         {/* Action Button */}
         <div className="hidden md:flex items-center space-x-4">
-          <Link to="/passport/ECO-2025-0001">
-            <button className="flex items-center space-x-2 bg-primary text-background hover:bg-primary-dark transition-all duration-300 px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider shadow-premium hover:shadow-premium-hover">
-              <QrCode className="w-4 h-4" />
-              <span>Quét Hộ Chiếu</span>
-            </button>
+          <Link 
+            to="/passport/ECO-2025-0001"
+            className="flex items-center space-x-2 bg-primary text-background hover:bg-primary-dark transition-all duration-300 px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider shadow-premium hover:shadow-premium-hover"
+          >
+            <QrCode className="w-4 h-4" />
+            <span>Quét Hộ Chiếu</span>
           </Link>
         </div>
 
@@ -121,11 +122,12 @@ export default function Header() {
                 );
               })}
               <div className="pt-4 border-t border-border">
-                <Link to="/passport/ECO-2025-0001" className="block w-full">
-                  <button className="flex items-center justify-center space-x-2 w-full bg-primary text-background hover:bg-primary-dark py-3.5 rounded-full text-sm font-semibold uppercase tracking-wider shadow-premium">
-                    <QrCode className="w-5 h-5" />
-                    <span>Quét Hộ Chiếu Số</span>
-                  </button>
+                <Link 
+                  to="/passport/ECO-2025-0001" 
+                  className="flex items-center justify-center space-x-2 w-full bg-primary text-background hover:bg-primary-dark py-3.5 rounded-full text-sm font-semibold uppercase tracking-wider shadow-premium text-center"
+                >
+                  <QrCode className="w-5 h-5" />
+                  <span>Quét Hộ Chiếu Số</span>
                 </Link>
               </div>
             </div>

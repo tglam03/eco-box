@@ -50,7 +50,7 @@ export default function Collection() {
         
         {/* Header Block */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4.5 py-1.5 rounded-full inline-block">
+          <span className="text-xs uppercase tracking-widest text-primary font-bold bg-primary/5 px-4 py-1.5 rounded-full inline-block">
             Eco-Lux Packaging
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-primary">
@@ -118,10 +118,11 @@ export default function Collection() {
 
                     {/* Quick view overlay */}
                     <div className="absolute inset-0 bg-primary/45 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                      <Link to={`/product/${product.slug}`}>
-                        <button className="bg-white text-primary p-4.5 rounded-full shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-center">
-                          <Eye className="w-5 h-5" />
-                        </button>
+                      <Link 
+                        to={`/product/${product.slug}`}
+                        className="bg-white text-primary p-4 rounded-full shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-center"
+                      >
+                        <Eye className="w-5 h-5" />
                       </Link>
                     </div>
                   </div>
@@ -172,10 +173,11 @@ export default function Collection() {
 
                   {/* CTA Footer */}
                   <div className="border-t border-border/60 p-4 bg-background/25">
-                    <Link to={`/product/${product.slug}`} className="w-full">
-                      <button className="w-full bg-primary/5 hover:bg-primary hover:text-white text-primary transition-all duration-300 py-3 rounded-2xl text-xs font-bold uppercase tracking-wider">
-                        Xem chi tiết & Hộ chiếu
-                      </button>
+                    <Link 
+                      to={`/product/${product.slug}`} 
+                      className="w-full block text-center bg-primary/5 hover:bg-primary hover:text-white text-primary transition-all duration-300 py-3 rounded-2xl text-xs font-bold uppercase tracking-wider"
+                    >
+                      Xem chi tiết & Hộ chiếu
                     </Link>
                   </div>
                 </motion.div>
