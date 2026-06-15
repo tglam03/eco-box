@@ -110,7 +110,7 @@ export default function Timeline() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.6, delay: 0.1 }}
-                  className={`ml-16 md:ml-0 w-full md:w-[45%] bg-white p-8 rounded-3xl border border-border/80 shadow-premium hover:shadow-premium-hover transition-shadow duration-300 ${
+                  className={`ml-16 md:ml-0 w-auto md:w-[45%] bg-white p-6 md:p-8 rounded-3xl border border-border/80 shadow-premium hover:shadow-premium-hover transition-shadow duration-300 ${
                     isEven ? 'md:text-right' : 'md:text-left'
                   }`}
                 >
