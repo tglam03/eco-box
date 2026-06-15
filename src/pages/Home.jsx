@@ -13,7 +13,7 @@ import Partners from '../components/home/Partners';
 export default function Home() {
   // SEO best practices
   useEffect(() => {
-    document.title = "Eco-Box | Hộ Chiếu Số Cho Bao Bì Bền Vững & ESG";
+    document.title = "Eco-Box | Thông Tin Cho Bao Bì Bền Vững & ESG";
     
     // Update or create meta description
     let metaDesc = document.querySelector('meta[name="description"]');
@@ -22,7 +22,7 @@ export default function Home() {
       metaDesc.name = "description";
       document.head.appendChild(metaDesc);
     }
-    metaDesc.content = "Eco-box là giải pháp bao bì sinh học cao cấp từ bã cà phê, xơ mướp, vỏ trấu tích hợp Hộ Chiếu Số (Digital Passport) định danh số hóa bằng mã QR, thúc đẩy mô hình tuần hoàn ESG.";
+    metaDesc.content = "Eco-box là giải pháp bao bì sinh học cao cấp từ bã cà phê, xơ mướp, vỏ trấu tích hợp Thông Tin Số (Digital Info) định danh số hóa bằng mã QR, thúc đẩy mô hình tuần hoàn ESG.";
   }, []);
 
   return (

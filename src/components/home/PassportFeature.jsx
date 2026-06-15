@@ -56,7 +56,7 @@ export default function PassportFeature() {
               Số Hóa Chuỗi Cung Ứng
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary leading-tight">
-              Trải Nghiệm <br />Hộ Chiếu Số (Digital Passport)
+              Trải Nghiệm <br />Thông Tin Số (Digital Info)
             </h2>
             <p className="text-base text-dark/70 font-light leading-relaxed">
               Mỗi sản phẩm Eco-box đi kèm một mã định danh số duy nhất. Chỉ với một thao tác quét QR đơn giản bằng điện thoại, khách hàng sẽ lập tức truy cập được toàn bộ dữ liệu minh bạch về sản phẩm.
@@ -89,7 +89,7 @@ export default function PassportFeature() {
                 to="/passport/ECO-2025-0001"
                 className="inline-flex items-center justify-center bg-primary text-background hover:bg-primary-dark transition-colors duration-300 px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider shadow-premium"
               >
-                Trải nghiệm demo hộ chiếu số
+                Trải nghiệm demo thông tin số
               </Link>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function PassportFeature() {
 
                   {/* Product Title */}
                   <div className="space-y-1 mb-5">
-                    <span className="text-[10px] text-white/40 tracking-wider">HỘ CHIẾU SỐ</span>
+                    <span className="text-[10px] text-white/40 tracking-wider">THÔNG TIN SỐ</span>
                     <h3 className="text-xl font-bold font-display">Eco-Box #ECO-2025-0001</h3>
                     <p className="text-[11px] text-secondary">Dòng: Hộp Sách Cà Phê Cao Cấp</p>
                   </div>

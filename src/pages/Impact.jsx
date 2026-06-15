@@ -162,7 +162,7 @@ export default function Impact() {
               {[
                 { step: '01', title: 'Thu Gom Phế Phẩm', desc: 'Bã cà phê, vỏ mía thô được gom từ vùng nông nghiệp và đô thị.' },
                 { step: '02', title: 'Chế Tác Sạch', desc: 'Ép đúc áp lực cao không phụ gia hóa học độc hại.' },
-                { step: '03', title: 'Sử Dụng & Quét Mã', desc: 'Khách hàng xem nguồn gốc và lưu hành hộ chiếu số.' },
+                { step: '03', title: 'Sử Dụng & Quét Mã', desc: 'Khách hàng xem nguồn gốc và lưu hành thông tin số.' },
                 { step: '04', title: 'Trồng Cây & Tự Rã', desc: 'Hộp phân hủy thành mùn nuôi dưỡng cây xanh.' }
               ].map((item, idx) => (
                 <div key={idx} className="space-y-2 text-left">

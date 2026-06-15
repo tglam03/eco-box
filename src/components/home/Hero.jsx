@@ -52,7 +52,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg text-background/80 max-w-xl font-light leading-relaxed"
           >
-            Từ phế phẩm nông nghiệp như bã cà phê, xơ mướp, vỏ trấu... trở thành bao bì xa xỉ mang trong mình hộ chiếu số của tương lai.
+            Từ phế phẩm nông nghiệp như bã cà phê, xơ mướp, vỏ trấu... trở thành bao bì xa xỉ mang trong mình thông tin số của tương lai.
           </motion.p>
 
           <motion.div 
@@ -73,7 +73,7 @@ export default function Hero() {
               className="inline-flex items-center space-x-2 border border-background/25 hover:border-secondary hover:bg-background/5 transition-all duration-300 px-8 py-4 rounded-full font-semibold uppercase tracking-wider text-xs"
             >
               <QrCode className="w-4 h-4 text-secondary" />
-              <span>Xem Hộ Chiếu Số</span>
+              <span>Xem Thông Tin Số</span>
             </Link>
           </motion.div>
         </div>
@@ -118,11 +118,11 @@ export default function Hero() {
                   <span className="text-[10px] uppercase tracking-widest text-secondary font-bold">Scanning...</span>
                   <h3 className="text-sm font-bold text-white tracking-wider">ECO-BOX #2025-0001</h3>
                   <p className="text-[10px] text-background/60 max-w-[180px] mx-auto leading-relaxed">
-                    Đang truy xuất Hộ Chiếu Số của hộp quà làm từ bã cà phê Lâm Đồng
+                    Đang truy xuất Thông Tin Số của hộp quà làm từ bã cà phê Lâm Đồng
                   </p>
                   <div className="pt-4">
                     <span className="inline-block bg-primary/80 border border-primary/20 text-white text-[9px] px-3.5 py-1.5 rounded-full shadow-md animate-pulse">
-                      Nhấp để xem hộ chiếu số ➜
+                      Nhấp để xem thông tin số ➜
                     </span>
                   </div>
                 </div>

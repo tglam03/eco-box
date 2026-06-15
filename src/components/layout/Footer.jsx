@@ -17,7 +17,7 @@ export default function Footer() {
             </span>
           </Link>
           <p className="text-background/60 max-w-sm text-sm leading-relaxed">
-            Một chiếc hộp - Nhiều vòng đời. Chúng tôi định nghĩa lại bao bì bằng cách kết hợp phế phẩm nông nghiệp với công nghệ hộ chiếu số (Digital Passport) nhằm kiến tạo một tương lai tuần hoàn.
+            Một chiếc hộp - Nhiều vòng đời. Chúng tôi định nghĩa lại bao bì bằng cách kết hợp phế phẩm nông nghiệp với công nghệ thông tin số (Digital Info) nhằm kiến tạo một tương lai tuần hoàn.
           </p>
           <div className="flex space-x-4 pt-2">
             <a 
@@ -47,7 +47,7 @@ export default function Footer() {
               <Link to="/impact" className="text-background/60 hover:text-background transition-colors duration-200">Tác động ESG</Link>
             </li>
             <li>
-              <Link to="/passport/ECO-2025-0001" className="text-background/60 hover:text-background transition-colors duration-200">Hộ chiếu số</Link>
+              <Link to="/passport/ECO-2025-0001" className="text-background/60 hover:text-background transition-colors duration-200">Thông tin số</Link>
             </li>
           </ul>
         </div>

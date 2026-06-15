@@ -25,8 +25,8 @@ export default {
         '3xl': '24px',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Outfit', 'sans-serif'],
+        sans: ['Plus Jakarta Sans', 'sans-serif'],
+        display: ['Plus Jakarta Sans', 'sans-serif'],
       },
       boxShadow: {
         'premium': '0 10px 35px -10px rgba(35, 69, 42, 0.08), 0 1px 3px rgba(35, 69, 42, 0.02)',

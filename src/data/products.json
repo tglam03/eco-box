@@ -221,7 +221,7 @@
         { "stage": "Thu hoạch ngó sen & mướp", "location": "Cánh đồng sen Tháp Mười", "date": "2026-04-22" },
         { "stage": "Tách sợi nghệ thuật", "location": "Cơ sở dệt sợi Đồng Tháp", "date": "2026-05-02" },
         { "stage": "Ép nhiệt khuôn trái tim", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-14" },
-        { "stage": "Kích hoạt hộ chiếu số QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-20" }
+        { "stage": "Kích hoạt thông tin số QR", "location": "Trung tâm ESG Eco-box", "date": "2026-05-20" }
       ],
       "brandMessage": "Được dệt nên từ những sợi sen thanh khiết của xứ Đồng Tháp Mười, chiếc hộp này gửi gắm trọn vẹn tình yêu thiên nhiên đến người nhận."
     },
@@ -358,7 +358,7 @@
         { "stage": "Thu gom nguyên liệu hỗn hợp", "location": "Nông trại Tây Nguyên & Sơn La", "date": "2026-05-02" },
         { "stage": "Nghiền trộn đồng nhất", "location": "Nhà máy chế tác Eco-box", "date": "2026-05-12" },
         { "stage": "Lắp ráp thủ công 24 ngăn", "location": "Xưởng chế tác Thủ Đức", "date": "2026-05-24" },
-        { "stage": "Kích hoạt hộ chiếu số đặc biệt", "location": "Trung tâm ESG Eco-box", "date": "2026-05-28" }
+        { "stage": "Kích hoạt thông tin số đặc biệt", "location": "Trung tâm ESG Eco-box", "date": "2026-05-28" }
       ],
       "brandMessage": "Hộp quà Giáng sinh bền vững lớn nhất của chúng tôi, tạo tác từ phế phẩm với mong muốn trao gửi 24 niềm vui xanh cho bạn."
     },

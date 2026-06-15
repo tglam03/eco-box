@@ -177,7 +177,7 @@ export default function Collection() {
                       to={`/product/${product.slug}`} 
                       className="w-full block text-center bg-primary/5 hover:bg-primary hover:text-white text-primary transition-all duration-300 py-3 rounded-2xl text-xs font-bold uppercase tracking-wider"
                     >
-                      Xem chi tiết & Hộ chiếu
+                      Xem chi tiết & Thông tin
                     </Link>
                   </div>
                 </motion.div>

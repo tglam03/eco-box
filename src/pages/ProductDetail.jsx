@@ -24,7 +24,7 @@ export default function ProductDetail() {
       document.title = `${product.name} | Chi Tiết Sản Phẩm Eco-Box`;
       let metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
-        metaDesc.content = `${product.name} - ${product.description}. Kích thước ${product.dimensions}. Sản xuất bền vững từ các phế phẩm nông nghiệp với hộ chiếu số riêng biệt.`;
+        metaDesc.content = `${product.name} - ${product.description}. Kích thước ${product.dimensions}. Sản xuất bền vững từ các phế phẩm nông nghiệp với thông tin số riêng biệt.`;
       }
     }
   }, [product]);
@@ -177,7 +177,7 @@ export default function ProductDetail() {
             {/* Digital Passport Preview CTA */}
             <div className="bg-primary text-background rounded-3xl p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div className="space-y-1">
-                <h4 className="font-display font-bold text-base text-white">Xem Thử Hộ Chiếu Số</h4>
+                <h4 className="font-display font-bold text-base text-white">Xem Thử Thông Tin Số</h4>
                 <p className="text-xs text-background/70 font-light">
                   Mỗi hộp thật sẽ có một mã định danh số duy nhất đi kèm.
                 </p>
@@ -187,7 +187,7 @@ export default function ProductDetail() {
                 className="shrink-0 bg-secondary text-dark hover:bg-white transition-colors duration-300 px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider flex items-center space-x-2 shadow-md w-full sm:w-auto justify-center text-center"
               >
                 <QrCode className="w-4 h-4" />
-                <span>Mở Hộ Chiếu</span>
+                <span>Xem Thông Tin</span>
               </Link>
             </div>
 

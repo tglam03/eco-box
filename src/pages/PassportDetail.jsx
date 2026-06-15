@@ -20,10 +20,10 @@ export default function PassportDetail() {
 
   // SEO setup
   useEffect(() => {
-    document.title = `Hộ Chiếu Số #${product.passportData.id} | Eco-Box ESG`;
+    document.title = `Thông Tin Số #${product.passportData.id} | Eco-Box ESG`;
     let metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.content = `Xem hộ chiếu số số hóa minh bạch cho Eco-Box #${product.passportData.id}. Toàn bộ thông tin vật liệu, hành trình sản xuất và chỉ số bảo vệ môi trường.`;
+      metaDesc.content = `Xem thông tin số hóa minh bạch cho Eco-Box #${product.passportData.id}. Toàn bộ thông tin vật liệu, hành trình sản xuất và chỉ số bảo vệ môi trường.`;
     }
   }, [product]);
 
@@ -53,7 +53,7 @@ export default function PassportDetail() {
         <div className="mb-12 text-left space-y-3">
           <div className="flex items-center space-x-2 text-primary">
             <span className="h-px w-8 bg-primary"></span>
-            <span className="text-xs uppercase font-bold tracking-widest">Hộ Chiếu Số Xác Minh</span>
+            <span className="text-xs uppercase font-bold tracking-widest">Thông Tin Xác Minh</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-primary font-display">
             Xin chào. Bạn đang cầm trên tay Eco-box <span className="text-secondary-dark font-extrabold">#{pData.id}</span>

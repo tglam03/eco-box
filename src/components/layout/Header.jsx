@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, QrCode, Globe } from 'lucide-react';
+import { Menu, X, QrCode } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Header() {
@@ -29,8 +29,12 @@ export default function Header() {
     { name: 'Trang Chủ', path: '/' },
     { name: 'Bộ Sưu Tập', path: '/collection' },
     { name: 'Tác Động ESG', path: '/impact' },
-    { name: 'Hộ Chiếu Số', path: '/passport/ECO-2025-0001' }
+    { name: 'Thông Tin Số', path: '/passport/ECO-2025-0001' }
   ];
+
+  // Dynamic header styles when overlaying on top of dark Hero section (homepage at scroll = 0)
+  const isDarkBgPage = location.pathname === '/';
+  const isDarkHeader = isDarkBgPage && !isScrolled;
 
   return (
     <header 
@@ -43,8 +47,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <span className="font-display text-2xl font-bold tracking-wider text-primary">
-            ECO<span className="text-secondary-dark font-light">-</span>BOX
+          <span className={`font-display text-2xl font-bold tracking-wider transition-colors duration-300 ${
+            isDarkHeader ? 'text-white' : 'text-primary'
+          }`}>
+            ECO<span className={isDarkHeader ? 'text-secondary font-light' : 'text-secondary-dark font-light'}>-</span>BOX
           </span>
         </Link>
 
@@ -57,15 +63,19 @@ export default function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`relative text-sm font-medium tracking-wide transition-colors duration-200 ${
-                  isActive ? 'text-primary' : 'text-dark/70 hover:text-primary'
+                className={`relative text-sm font-medium tracking-wide transition-colors duration-300 ${
+                  isActive 
+                    ? (isDarkHeader ? 'text-secondary' : 'text-primary') 
+                    : (isDarkHeader ? 'text-white/80 hover:text-secondary' : 'text-dark/70 hover:text-primary')
                 }`}
               >
                 {link.name}
                 {isActive && (
                   <motion.div 
                     layoutId="activeNav" 
-                    className="absolute -bottom-1.5 left-0 right-0 h-0.5 bg-primary rounded-full"
+                    className={`absolute -bottom-1.5 left-0 right-0 h-0.5 rounded-full ${
+                      isDarkHeader ? 'bg-secondary' : 'bg-primary'
+                    }`}
                     transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                   />
                 )}
@@ -78,16 +88,22 @@ export default function Header() {
         <div className="hidden md:flex items-center space-x-4">
           <Link 
             to="/passport/ECO-2025-0001"
-            className="flex items-center space-x-2 bg-primary text-background hover:bg-primary-dark transition-all duration-300 px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider shadow-premium hover:shadow-premium-hover"
+            className={`flex items-center space-x-2 transition-all duration-300 px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider shadow-premium hover:shadow-premium-hover ${
+              isDarkHeader 
+                ? 'bg-secondary text-dark hover:bg-white' 
+                : 'bg-primary text-background hover:bg-primary-dark'
+            }`}
           >
             <QrCode className="w-4 h-4" />
-            <span>Quét Hộ Chiếu</span>
+            <span>Quét Thông Tin</span>
           </Link>
         </div>
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-primary p-1"
+          className={`md:hidden p-1 transition-colors duration-300 ${
+            isDarkHeader ? 'text-white hover:text-secondary' : 'text-primary hover:text-secondary-dark'
+          }`}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -127,7 +143,7 @@ export default function Header() {
                   className="flex items-center justify-center space-x-2 w-full bg-primary text-background hover:bg-primary-dark py-3.5 rounded-full text-sm font-semibold uppercase tracking-wider shadow-premium text-center"
                 >
                   <QrCode className="w-5 h-5" />
-                  <span>Quét Hộ Chiếu Số</span>
+                  <span>Quét Thông Tin Chi Tiết</span>
                 </Link>
               </div>
             </div>
